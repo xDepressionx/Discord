@@ -169,50 +169,6 @@ function DiscordLib:Window(text)
 	Title.TextSize = 13.000
 	Title.TextXAlignment = Enum.TextXAlignment.Left
 
-	CloseBtn.Name = "CloseBtn"
-	CloseBtn.Parent = TopFrame
-	CloseBtn.BackgroundColor3 = Color3.fromRGB(32, 34, 37)
-	CloseBtn.BackgroundTransparency = 0
-	CloseBtn.Position = UDim2.new(0.959063113, 0, -0.0169996787, 0)
-	CloseBtn.Size = UDim2.new(0, 28, 0, 22)
-	CloseBtn.Font = Enum.Font.Gotham
-	CloseBtn.Text = ""
-	CloseBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
-	CloseBtn.TextSize = 14.000
-	CloseBtn.BorderSizePixel = 0
-	CloseBtn.AutoButtonColor = false
-
-	CloseIcon.Name = "CloseIcon"
-	CloseIcon.Parent = CloseBtn
-	CloseIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	CloseIcon.BackgroundTransparency = 1.000
-	CloseIcon.Position = UDim2.new(0.189182192, 0, 0.128935531, 0)
-	CloseIcon.Size = UDim2.new(0, 17, 0, 17)
-	CloseIcon.Image = "http://www.roblox.com/asset/?id=6035047409"
-	CloseIcon.ImageColor3 = Color3.fromRGB(220, 221, 222)
-
-	MinimizeBtn.Name = "MinimizeButton"
-	MinimizeBtn.Parent = TopFrame
-	MinimizeBtn.BackgroundColor3 = Color3.fromRGB(32, 34, 37)
-	MinimizeBtn.BackgroundTransparency = 0
-	MinimizeBtn.Position = UDim2.new(0.917947114, 0, -0.0169996787, 0)
-	MinimizeBtn.Size = UDim2.new(0, 28, 0, 22)
-	MinimizeBtn.Font = Enum.Font.Gotham
-	MinimizeBtn.Text = ""
-	MinimizeBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
-	MinimizeBtn.TextSize = 14.000
-	MinimizeBtn.BorderSizePixel = 0
-	MinimizeBtn.AutoButtonColor = false
-
-	MinimizeIcon.Name = "MinimizeLabel"
-	MinimizeIcon.Parent = MinimizeBtn
-	MinimizeIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	MinimizeIcon.BackgroundTransparency = 1.000
-	MinimizeIcon.Position = UDim2.new(0.189182192, 0, 0.128935531, 0)
-	MinimizeIcon.Size = UDim2.new(0, 17, 0, 17)
-	MinimizeIcon.Image = "http://www.roblox.com/asset/?id=6035067836"
-	MinimizeIcon.ImageColor3 = Color3.fromRGB(220, 221, 222)
-
 	ServersHolder.Name = "ServersHolder"
 	ServersHolder.Parent = TopFrameHolder
 
@@ -518,13 +474,13 @@ function DiscordLib:Window(text)
 					SettingsHolder:TweenSize(UDim2.new(0, 0, 0, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
 					TweenService:Create(
 						Settings,
-						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+						TweenInfo.new(0.6, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
 						{BackgroundTransparency = 1}
 					):Play()
 					for i,v in next, SettingsHolder:GetChildren() do
 						TweenService:Create(
 							v,
-							TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+							TweenInfo.new(0.6, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
 							{BackgroundTransparency = 1}
 						):Play()
 					end
