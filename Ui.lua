@@ -471,7 +471,7 @@ function DiscordLib:Window(text)
 					settingsopened = false
 					TopFrameHolder.Visible = true
 					ServersHoldFrame.Visible = true
-					SettingsHolder:TweenSize(UDim2.new(0, 0, 0, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
+					SettingsHolder:TweenSize(UDim2.new(0, 681, 0, 396), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
 					TweenService:Create(
 						Settings,
 						TweenInfo.new(2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
