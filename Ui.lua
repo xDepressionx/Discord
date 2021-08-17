@@ -474,13 +474,13 @@ function DiscordLib:Window(text)
 					SettingsHolder:TweenSize(UDim2.new(0, 0, 0, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
 					TweenService:Create(
 						Settings,
-						TweenInfo.new(0.6, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+						TweenInfo.new(2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
 						{BackgroundTransparency = 1}
 					):Play()
 					for i,v in next, SettingsHolder:GetChildren() do
 						TweenService:Create(
 							v,
-							TweenInfo.new(0.6, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+							TweenInfo.new(2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
 							{BackgroundTransparency = 1}
 						):Play()
 					end
