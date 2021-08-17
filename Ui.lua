@@ -814,7 +814,7 @@ function DiscordLib:Window(text)
 		ChangeBtn.Size = UDim2.new(0, 76, 0, 27)
 		ChangeBtn.Font = Enum.Font.Gotham
 		ChangeBtn.Text = "Change"
-		ChangeBtn.TextColor3 = Color3.fromRGB(64, 64, 64)
+		ChangeBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
 		ChangeBtn.TextSize = 13.000
 		ChangeBtn.AutoButtonColor = false
 
@@ -2111,7 +2111,7 @@ function DiscordLib:Window(text)
 				Button.Size = UDim2.new(0, 401, 0, 30)
 				Button.AutoButtonColor = false
 				Button.Font = Enum.Font.Gotham
-				Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+				Button.TextColor3 = Color3.fromRGB(64, 64, 64)
 				Button.TextSize = 14.000
 				Button.Text = text
 
