@@ -1824,7 +1824,7 @@ function DiscordLib:Window(text)
 		GlowChannel.Size = UDim2.new(1.06396091, 30, 0.228228226, 30)
 		GlowChannel.ZIndex = 0
 		GlowChannel.Image = "rbxassetid://4996891970"
-		GlowChannel.ImageColor3 = Color3.fromRGB(255, 255, 255)
+		GlowChannel.ImageColor3 = Color3.fromRGB(15, 15, 15)
 		GlowChannel.ScaleType = Enum.ScaleType.Slice
 		GlowChannel.SliceCenter = Rect.new(20, 20, 280, 280)
 
