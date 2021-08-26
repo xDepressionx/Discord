@@ -2112,7 +2112,7 @@ if game.CoreGui:FindFirstChild("Discord") then
                  Button.Size = UDim2.new(0, 401, 0, 30)
                  Button.AutoButtonColor = false
                  Button.Font = Enum.Font.Gotham
-                 Button.TextColor3 = Color3.fromRGB(56, 56, 56)
+                 Button.TextColor3 = Color3.fromRGB(67, 67, 67)
                  Button.TextSize = 14.000
                  Button.Text = text
  
