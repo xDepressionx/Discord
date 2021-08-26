@@ -2018,7 +2018,7 @@ function DiscordLib:Window(text)
 			ChannelBtnHashtag.Size = UDim2.new(0, 24, 0, 30)
 			ChannelBtnHashtag.Font = Enum.Font.Gotham
 			ChannelBtnHashtag.Text = "#"
-			ChannelBtnHashtag.TextColor3 = Color3.fromRGB(114, 118, 125)
+			ChannelBtnHashtag.TextColor3 = Color3.fromRGB(255, 255, 255)
 			ChannelBtnHashtag.TextSize = 21.000
 
 			ChannelBtnTitle.Name = "ChannelBtnTitle"
@@ -2030,7 +2030,7 @@ function DiscordLib:Window(text)
 			ChannelBtnTitle.Size = UDim2.new(0, 95, 0, 39)
 			ChannelBtnTitle.Font = Enum.Font.Gotham
 			ChannelBtnTitle.Text = text
-			ChannelBtnTitle.TextColor3 = Color3.fromRGB(114, 118, 125)
+			ChannelBtnTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
 			ChannelBtnTitle.TextSize = 14.000
 			ChannelBtnTitle.TextXAlignment = Enum.TextXAlignment.Left
 			ServerChannelHolder.CanvasSize = UDim2.new(0, 0, 0, ServerChannelHolderLayout.AbsoluteContentSize.Y)
@@ -2111,7 +2111,7 @@ function DiscordLib:Window(text)
 				Button.Size = UDim2.new(0, 401, 0, 30)
 				Button.AutoButtonColor = false
 				Button.Font = Enum.Font.Gotham
-				Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+				Button.TextColor3 = Color3.fromRGB(67, 67, 67)
 				Button.TextSize = 14.000
 				Button.Text = text
 
